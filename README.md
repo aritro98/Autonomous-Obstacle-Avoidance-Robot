@@ -14,8 +14,11 @@ Designed and built a robot that navigates autonomously by detecting and avoiding
   - Ultrasonic & IR Sensors
   - DC & Servo Motors
   - L298D Motor Driver
+  - Robot Chassis
+  - Power Source (Battery)
 - **Software**:
   - Arduino IDE
+  - Autodesk Tinkercad
 
 ## Project Design
 1. **Theory**:
@@ -29,6 +32,7 @@ Designed and built a robot that navigates autonomously by detecting and avoiding
 2. **Connections**:
    - Ultrasonic/IR sensors connected to the input pins of the Arduino UNO.
    - Motors connected via the L298D motor driver.
+   - Robot chassis provides the structural framework, and the power source (battery) supplies necessary energy.
 
 3. **Code**:
    - The Arduino code facilitates sensor data reading and motor control. Refer to the [Code](./Code/) directory for the full implementation.
@@ -39,8 +43,9 @@ Designed and built a robot that navigates autonomously by detecting and avoiding
    git clone https://github.com/aritro98/Autonomous-Obstacle-Avoidance-Robot.git
    ```
 2. Open the `.ino` file in the Arduino IDE.
-3. Connect the Arduino UNO to your system and upload the code.
-4. Assemble the robot using the provided circuit design.
+3. Use Autodesk Tinkercad for circuit simulation and to visualize the connections virtually. This helps ensure your wiring and setup are accurate before actual assembly.
+4. Connect the Arduino UNO to your system and upload the code.
+5. Assemble the robot using the provided circuit design.
 
 ## Results
 The robot successfully avoids obstacles using sensor data and adjusts its movement dynamically, showcasing its potential in robotics and automation.
