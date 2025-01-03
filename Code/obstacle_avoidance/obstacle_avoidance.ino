@@ -69,35 +69,35 @@ void loop(){
     }
 }
 // Function to move forward
-void moveForward() {
+void moveForward(){
     analogWrite(motorPin1, 255);
     analogWrite(motorPin2, 255);
     analogWrite(motorPin3, 255);
     analogWrite(motorPin4, 255);
 }
 // Function to stop all motors
-void stopMotors() {
+void stopMotors(){
     analogWrite(motorPin1, 0);
     analogWrite(motorPin2, 0);
     analogWrite(motorPin3, 0);
     analogWrite(motorPin4, 0);
 }
 // Function to turn right
-void turnRight() {
+void turnRight(){
     analogWrite(motorPin1, 255);
     analogWrite(motorPin2, 0);
     analogWrite(motorPin3, 0);
     analogWrite(motorPin4, 255);
 }
 // Function to turn left
-void turnLeft() {
+void turnLeft(){
     analogWrite(motorPin1, 0);
     analogWrite(motorPin2, 255);
     analogWrite(motorPin3, 255);
     analogWrite(motorPin4, 0);
 }
 // Function to reverse
-void reverse() {
+void reverse(){
     analogWrite(motorPin1, -255);
     analogWrite(motorPin2, -255);
     analogWrite(motorPin3, -255);
