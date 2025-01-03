@@ -13,3 +13,27 @@ void setup(){
     pinMode(motorPin2, OUTPUT);
     Serial.begin(9600);
 }
+void loop(){
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+    duration = pulseIn(echoPin, HIGH);
+    distance = duration*0.034/2;
+    Serial.print("Distance: ");
+    Serial.println(distance);
+    int irValue = analogRead(irSensorPin);
+    if(distance <= 20 && irValue < 500){
+        analogWrite(motorPin1, 0);
+        analogWrite(motorPin2, 0);
+        delay(1000);
+        analogWrite(motorPin1, 255);
+        analogWrite(motorPin2, 0);
+        delay(500);
+    }
+    else{
+        analogWrite(motorPin1, 150);
+        analogWrite(motorPin2, 150);
+    }
+}
