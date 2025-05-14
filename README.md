@@ -42,11 +42,15 @@ Designed and built a robot that navigates autonomously by detecting and avoiding
    ```bash
    git clone https://github.com/aritro98/Autonomous-Obstacle-Avoidance-Robot.git
    ```
-2. Open the `.ino` file in the Arduino IDE.
-3. Use Autodesk Tinkercad for circuit simulation and to visualize the connections virtually. This helps ensure your wiring and setup are accurate before actual assembly.
-4. Assemble the robot chassis by mounting the motors, wheels, and other components to provide a stable framework for the robot.
-5. Connect the Arduino UNO to your system and upload the code.
-6. Integrate the power source (battery) to supply energy to the robot.
+2. Navigate to the project directory:
+   ```bash
+   cd Autonomous-Obstacle-Avoidance-Robot
+   ```
+3. Open the `.ino` file in the Arduino IDE.
+4. Use Autodesk Tinkercad for circuit simulation and to visualize the connections virtually. This helps ensure your wiring and setup are accurate before actual assembly.
+5. Assemble the robot chassis by mounting the motors, wheels, and other components to provide a stable framework for the robot.
+6. Connect the Arduino UNO to your system and upload the code.
+7. Integrate the power source (battery) to supply energy to the robot.
 
 ## Results
 The robot successfully avoids obstacles using sensor data and adjusts its movement dynamically, showcasing its potential in robotics and automation.
