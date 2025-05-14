@@ -35,7 +35,7 @@ Designed and built a robot that navigates autonomously by detecting and avoiding
    - Robot chassis provides the structural framework, and the power source (battery) supplies necessary energy.
 
 3. **Code**:
-   - The Arduino code facilitates sensor data reading and motor control. Refer to the [Code](./Code/) directory for the full implementation.
+   - The Arduino code facilitates sensor data reading and motor control. Refer to the [code](./code/) directory for the full implementation.
 
 ## Installation and Setup
 1. Clone the repository:
