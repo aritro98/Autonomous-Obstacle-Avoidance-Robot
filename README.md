@@ -1,6 +1,6 @@
 # Autonomous Obstacle Avoidance Robot
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/104993fa-4766-455f-a6b3-a63939cdcd42"/>
+<img width="814" height="587" alt="image" src="https://github.com/user-attachments/assets/5cea718c-47e6-42e7-94b4-ffecbf6fb41a"/>
 
 Designed and built a robot that navigates autonomously by detecting and avoiding obstacles in real-time using ultrasonic sensors and an Arduino microcontroller. The project demonstrates skills in robotics, sensor integration, and embedded systems programming for dynamic path adjustment.
 
